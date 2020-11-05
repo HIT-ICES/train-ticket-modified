@@ -1,0 +1,12 @@
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/TravelInfo.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/AdminTrip.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/Route.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelService.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/Type.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/TrainType.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/AdminTravelApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/Trip.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/entity/TripId.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-travel-service/src/main/java/admintravel/controller/AdminTravelController.java

@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/ts-deploy-after.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/ts-deploy-before.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/ts-ui.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/zipkin-tickect.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/zipkin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test/run-jaeger.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test/run1.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test/user-compose-withjager.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test/user-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy-test/zipkin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/luoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin-server/zipkin-server-2.16.0-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-order-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-order-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-route-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-route-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-route-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-route-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-travel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-travel-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-travel-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-travel-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-user-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-user-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-admin-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-assurance-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-assurance-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-assurance-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-assurance-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-auth-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-auth-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-auth-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-auth-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-basic-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basic-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-basic-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basic-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-cancel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-cancel-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-cancel-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-cancel-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-config-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-config-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-config-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-consign-price-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-price-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-consign-price-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-price-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-consign-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-consign-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-contacts-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-contacts-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-contacts-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-contacts-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-execute-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-execute-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-execute-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-execute-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-food-map-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-map-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-food-map-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-map-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-food-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-food-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-inside-payment-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-inside-payment-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-inside-payment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-inside-payment-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-notification-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-notification-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-notification-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-notification-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-order-other-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-other-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-order-other-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-other-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-order-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-payment-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-payment-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-payment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-payment-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-preserve-other-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-other-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-preserve-other-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-other-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-preserve-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-preserve-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-price-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-price-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-price-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-price-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-rebook-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-rebook-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-rebook-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-rebook-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-route-plan-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-plan-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-route-plan-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-plan-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-route-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-route-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-seat-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-seat-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-seat-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-seat-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-security-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-security-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-security-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-security-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-station-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-station-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-station-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-station-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-ticket-office-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ticket-office-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-ticketinfo-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ticketinfo-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-ticketinfo-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ticketinfo-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-train-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-train-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-train-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-train-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travel-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travel2-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travel2-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-ui-dashboard/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ui-dashboard/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-user-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-user-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-user-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-user-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-verification-code-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-verification-code-service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-verification-code-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-verification-code-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-voucher-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-voucher-service/Dockerfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jmaKQOfZH4jhQJV7W5UGoofDbv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PriceApplication">
+    <configuration name="AdminBasicInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-admin-basic-info-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminbasic.AdminBasicInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-admin-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminorder.AdminOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminRouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-admin-route-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminroute.AdminRouteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTravelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-admin-travel-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="admintravel.AdminTravelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-admin-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="adminuser.AdminUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssuranceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-assurance-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="assurance.AssuranceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-basic-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fdse.microservice.BasicApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CancelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-cancel-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cancel.CancelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-consign-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consign.ConsignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsignPriceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-consign-price-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="consignprice.ConsignPriceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-contacts-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="contacts.ContactsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecuteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-execute-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="execute.ExecuteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-food-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foodsearch.FoodApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodMapApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-food-map-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="food.FoodMapApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsidePaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-inside-payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="inside_payment.InsidePaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="notification.NotificationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderOtherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-order-other-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="other.OrderOtherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-payment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.trainticket.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreserveApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-preserve-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="preserve.PreserveApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreserveOtherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-preserve-other-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="preserveOther.PreserveOtherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-price-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="price.PriceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RebookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-rebook-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="rebook.RebookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-route-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="route.RouteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoutePlanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-route-plan-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="plan.RoutePlanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-seat-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="seat.SeatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-security-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-station-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fdse.microservice.StationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-ticketinfo-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ticketinfo.TicketInfoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-train-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="train.TrainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Travel2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-travel2-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="travel2.Travel2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-travel-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="travel.TravelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelPlanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-travel-plan-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="travelplan.TravelPlanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ts-verification-code-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="verifycode.VerifyCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="" />
+      <created>1604411658885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604411658885</updated>
+      <workItem from="1604411660025" duration="1023000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1604411989926">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
+    <state x="578" y="184" width="764" height="784" key="find.popup" timestamp="1604412219986">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="578" y="184" width="764" height="784" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604412219986" />
+  </component>
+</project>

@@ -1,0 +1,11 @@
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/entity/PlainAssurance.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/entity/Assurance.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/repository/AssuranceRepository.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/entity/AssuranceTypeBean.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/service/AssuranceService.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/entity/AssuranceType.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/AssuranceApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/controller/AssuranceController.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/service/AssuranceServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-assurance-service/src/main/java/assurance/init/InitData.java

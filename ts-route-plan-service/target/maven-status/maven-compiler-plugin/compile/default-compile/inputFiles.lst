@@ -1,0 +1,15 @@
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/TripAllDetail.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/Type.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/controller/RoutePlanController.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/RoutePlanResultUnit.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/TripResponse.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/TripId.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/TripAllDetailInfo.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/RoutePlanApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/RoutePlanInfo.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/Route.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/service/RoutePlanService.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/TripInfo.java
+/home/boylei/IdeaProjects/train-ticket/ts-route-plan-service/src/main/java/plan/entity/Trip.java

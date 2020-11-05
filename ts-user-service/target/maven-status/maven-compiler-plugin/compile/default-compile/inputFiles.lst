@@ -1,0 +1,11 @@
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/controller/UserController.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/dto/AuthDto.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/entity/User.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/repository/UserRepository.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/service/impl/UserServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/service/UserService.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/dto/Gender.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/dto/UserDto.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/init/InitUser.java
+/home/boylei/IdeaProjects/train-ticket/ts-user-service/src/main/java/user/UserApplication.java

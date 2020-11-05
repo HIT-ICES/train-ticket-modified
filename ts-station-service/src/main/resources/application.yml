@@ -1,4 +1,9 @@
 spring:
+  zipkin:
+    baseUrl: http://zipkin:9411/
+  sleuth:
+    sampler:
+      percentage: 1.0
   application:
     name: ts-station-service
   data:

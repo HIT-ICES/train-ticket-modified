@@ -1,0 +1,12 @@
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/entity/AllTripFood.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/FoodApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/entity/TrainFood.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/repository/FoodOrderRepository.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/entity/Food.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/entity/FoodOrder.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/controller/FoodController.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/service/FoodServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/entity/FoodStore.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/entity/Route.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-food-service/src/main/java/foodsearch/service/FoodService.java

@@ -1,0 +1,8 @@
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/ConfigApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/service/ConfigServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/entity/Config.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/service/ConfigService.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/controller/ConfigController.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/repository/ConfigRepository.java
+/home/boylei/IdeaProjects/train-ticket/ts-config-service/src/main/java/config/init/InitData.java

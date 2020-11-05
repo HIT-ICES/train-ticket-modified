@@ -1,0 +1,10 @@
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/service/ConsignServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/repository/ConsignRepository.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/entity/Consign.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/entity/InsertConsignRecordResult.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/service/ConsignService.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/entity/ConsignRecord.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/ConsignApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/controller/ConsignController.java
+/home/boylei/IdeaProjects/train-ticket/ts-consign-service/src/main/java/consign/entity/GetPriceDomain.java

@@ -1,0 +1,9 @@
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/controller/ContactsController.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/service/ContactsServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/repository/ContactsRepository.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/init/InitData.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/service/ContactsService.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/ContactsApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/entity/Contacts.java
+/home/boylei/IdeaProjects/train-ticket/ts-contacts-service/src/main/java/contacts/entity/DocumentType.java

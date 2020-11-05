@@ -1,0 +1,11 @@
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/entity/TripId.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/entity/Travel.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/controller/TicketInfoController.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/entity/Type.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/entity/TravelResult.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/service/TicketInfoService.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/TicketInfoApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/entity/Trip.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/entity/TrainType.java
+/home/boylei/IdeaProjects/train-ticket/ts-ticketinfo-service/src/main/java/ticketinfo/service/TicketInfoServiceImpl.java

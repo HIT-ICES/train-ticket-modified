@@ -1,0 +1,10 @@
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/controller/AdminBasicInfoController.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/entity/PriceInfo.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/entity/TrainType.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/service/AdminBasicInfoService.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/AdminBasicInfoApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/entity/Station.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/entity/Config.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-basic-info-service/src/main/java/adminbasic/entity/Contacts.java

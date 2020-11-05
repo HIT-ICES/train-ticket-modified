@@ -1,0 +1,10 @@
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/service/AdminUserServiceImpl.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/service/AdminUserService.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/config/SecurityConfig.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/controller/AdminUserController.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/entity/User.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/entity/Account.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/entity/Gender.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/AdminUserApplication.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/entity/DocumentType.java
+/home/boylei/IdeaProjects/train-ticket/ts-admin-user-service/src/main/java/adminuser/dto/UserDto.java
