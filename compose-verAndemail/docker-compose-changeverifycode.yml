@@ -1,6 +1,20 @@
 version: '2'
 
 services:
+  ts-contacts-service:
+    build: ../ts-contacts-service
+    restart: always
+    ports:
+      - "12347:12347"
+    networks:
+      - my-network
+
+  ts-contacts-mongo:
+    image: mongo
+    networks:
+      - my-network
+
+
   ts-user-service:
     build: ../ts-user-service
     restart: always
