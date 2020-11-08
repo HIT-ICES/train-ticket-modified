@@ -1,0 +1,161 @@
+version: '2'
+
+services:
+  ts-train-service:
+    build: ../ts-train-service
+    #image: codewisdom/ts-train-service
+    restart: always
+    ports:
+      - 14567:14567
+    networks:
+      - my-network
+
+  ts-train-mongo:
+    image: mongo
+    networks:
+      - my-network
+  ts-route-service:
+    build: ../ts-route-service
+    #image: codewisdom/ts-route-service
+    restart: always
+    ports:
+      - 11178:11178
+    networks:
+      - my-network
+
+  ts-route-mongo:
+    image: mongo
+    networks:
+      - my-network
+  ts-travel-service:
+    build: ../ts-travel-service
+    #image: codewisdom/ts-travel-service
+    restart: always
+    ports:
+      - 12346:12346
+    networks:
+      - my-network
+
+  ts-travel-mongo:
+    image: mongo
+    networks:
+      - my-network
+
+  ts-travel2-service:
+    build: ../ts-travel2-service
+    #image: codewisdom/ts-travel2-service
+    restart: always
+    ports:
+      - 16346:16346
+    networks:
+      - my-network
+
+  ts-travel2-mongo:
+    image: mongo
+    networks:
+      - my-network
+  ts-station-service:
+    build: ../ts-station-service
+    restart: always
+    ports:
+      - 12345:12345
+    networks:
+      - my-network
+
+  ts-station-mongo:
+    image: mongo
+    networks:
+      - my-network
+  ts-price-service:
+    build: ../ts-price-service
+    #image: codewisdom/ts-price-service
+    restart: always
+    ports:
+      - 16579:16579
+    networks:
+      - my-network
+
+  ts-price-mongo:
+    image: mongo
+    networks:
+      - my-network
+
+
+
+  ts-admin-basic-info-service:
+    build: ../ts-admin-basic-info-service
+    #image: codewisdom/ts-admin-basic-info-service
+    restart: always
+    ports:
+      - 18767:18767
+    networks:
+      - my-network
+
+
+  ts-admin-route-service:
+    build: ../ts-admin-route-service
+    #image: codewisdom/ts-admin-route-service
+    restart: always
+    ports:
+      - 16113:16113
+    networks:
+      - my-network
+
+  ts-admin-travel-service:
+    build: ../ts-admin-travel-service
+    #image: codewisdom/ts-admin-travel-service
+    restart: always
+    ports:
+      - 16114:16114
+    networks:
+      - my-network
+
+  ts-user-service:
+    build: ../ts-user-service
+    restart: always
+    ports:
+      - "12342:12342"
+    networks:
+      - my-network
+
+  ts-user-mongo:
+    image: mongo
+    networks:
+      - my-network
+
+  ts-auth-service:
+    build: ../ts-auth-service
+    restart: always
+    ports:
+      - "12340:12340"
+    networks:
+      - my-network
+
+  ts-auth-mongo:
+    image: mongo
+    networks:
+      - my-network
+
+  ts-verification-code-service:
+    build: ../ts-verification-code-service
+    restart: always
+    ports:
+      - "15678:15678"
+    networks:
+      - my-network
+
+  ts-admin-user-service:
+    build: ../ts-admin-user-service
+    restart: always
+    ports:
+      - "16115:16115"
+    #    deploy:
+    #      replicas: 1
+    #      restart_policy:
+    #        condition: on-failure
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge
