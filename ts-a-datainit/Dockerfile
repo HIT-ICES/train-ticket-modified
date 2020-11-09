@@ -1,6 +1,5 @@
 #FROM python:3
 FROM lei_python:3
-
 RUN mkdir -p /app
 WORKDIR /app
 
@@ -8,7 +7,7 @@ WORKDIR /app
 #RUN pip install cryptography
 #RUN pip install --no-cache-dir -r requirements.txt
 
-ADD ./server.py /app/
-CMD [ "python", "server.py" ]
+ADD ./intidata.py /app/
+CMD [ "python", "intidata.py" ]
 
-EXPOSE 16101
+EXPOSE 18000

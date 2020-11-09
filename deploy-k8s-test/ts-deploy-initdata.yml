@@ -1,0 +1,45 @@
+## only use to debug
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ts-a-datainit
+spec:
+  selector:
+    matchLabels:
+      app: ts-a-datainit
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ts-a-datainit
+    spec:
+      containers:
+        - name: ts-a-datainit
+          image: 192.168.1.104:5000/leizipkin_ts-a-datainit
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 18000
+          resources:
+            requests:
+              cpu: 50m
+              memory: 100Mi
+            limits:
+              cpu: 500m
+              memory: 500Mi
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: ts-a-datainit
+spec:
+  type: NodePort
+  ports:
+    - name: http
+      port: 18000
+      nodePort: 32888
+  selector:
+    app: ts-a-datainit
+---
