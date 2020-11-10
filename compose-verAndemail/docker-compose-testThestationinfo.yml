@@ -1,6 +1,15 @@
 version: '2'
 
 services:
+
+  ts-a-datainit:
+    build: ../ts-a-datainit
+    restart: always
+    ports:
+      - 18000:18000
+    networks:
+      - my-network
+
   ts-train-service:
     build: ../ts-train-service
     #image: codewisdom/ts-train-service

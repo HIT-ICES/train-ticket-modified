@@ -1,6 +1,7 @@
 #!/bin/bash
 # to run the data-test
-docker-compose -f user-compose.yml kill
-docker ps -a | grep datatest | awk '{print $1}' | xargs docker rm
-docker-compose -f user-compose.yml -p datatest build
-docker-compose -f user-compose.yml -p datatest up
+docker-compose -f docker-compose-changeverifycode.yml -p changevertest kill
+docker ps -a | grep changevertest | awk '{print $1}' | xargs docker rm -f
+docker images | grep changevertest | awk '{print $3}' | xargs docker rmi -f
+docker-compose -f docker-compose-changeverifycode.yml -p changevertest build
+docker-compose -f docker-compose-changeverifycode.yml -p changevertest up

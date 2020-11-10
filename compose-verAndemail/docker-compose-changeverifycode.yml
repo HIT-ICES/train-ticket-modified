@@ -1,6 +1,14 @@
 version: '2'
 
 services:
+  ts-a-datainit:
+    build: ../ts-a-datainit
+    restart: always
+    ports:
+      - 18000:18000
+    networks:
+      - my-network
+
   ts-inside-payment-service:
     build: ../ts-inside-payment-service
     restart: always
@@ -71,6 +79,15 @@ services:
     #      replicas: 1
     #      restart_policy:
     #        condition: on-failure
+    networks:
+      - my-network
+
+  ts-admin-basic-info-service:
+    build: ../ts-admin-basic-info-service
+    #image: codewisdom/ts-admin-basic-info-service
+    restart: always
+    ports:
+      - 18767:18767
     networks:
       - my-network
 
