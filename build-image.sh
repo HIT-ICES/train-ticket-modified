@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+
+mvn clean package -Dmaven.test.skip=true
+
 # delete docker image
 echo 'delete docker image'
 docker images | grep leizipkin | awk '{print $1}' | xargs docker rmi
