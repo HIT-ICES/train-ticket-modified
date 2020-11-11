@@ -6,13 +6,13 @@ spring:
       percentage: 1.0
   application:
       name: ts-config-service
-    data:
-      mongodb:
-        host: ts-config-mongo
-#       username: user
-#       password: ${MONGODB_PASSWORD}
-        database: ts
-        port: 27017
+  data:
+    mongodb:
+      host: ts-config-mongo
+      #       username: user
+      #       password: ${MONGODB_PASSWORD}
+      database: ts
+      port: 27017
 
 # HTTP Server
 server:
