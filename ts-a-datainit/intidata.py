@@ -37,7 +37,7 @@ class Login:
             self.__data  = {"username": "admin", "password": "222222"}
         else:
             self.__data = {"username": username, "password": password, "verificationCode": ver}
-        req = requests.post(self.__url, json=self.__data, timeout=20)
+        req = requests.post(self.__url, json=self.__data)
         self.__token = json.loads(req.text)['data']['token']
 
 
@@ -65,7 +65,7 @@ def createUsersAndConnects():
             'email': 'microserivce_userName' + str(i) + "@163.com"
         }
         print("%d 's people is registered", i)
-        q = requests.post(url_createUser, json=user_data, headers=heads, timeout=20)
+        q = requests.post(url_createUser, json=user_data, headers=heads)
         if json.loads(q.text)['status'] == 1:
             # 联系人生成
             connect_data = {
@@ -76,14 +76,14 @@ def createUsersAndConnects():
                 'documentNumber' : 'DocumentNumber_One',
                 'phoneNumber' : 'ContactsPhoneNum_One'
             }
-            requests.post(url_createConnect, json=connect_data, headers=heads, timeout=20)
+            requests.post(url_createConnect, json=connect_data, headers=heads)
             print("%d 's people's connect is registered", i)
            # inside_payment生成
             inside_payment_data = {
                 'userId' : json.loads(q.text)['data']['userId'],
                 'money' : '10000',
             }
-            requests.post(url_createInside, json=inside_payment_data, headers=heads, timeout=20)
+            requests.post(url_createInside, json=inside_payment_data, headers=heads)
             print("%d 's people's insidepayment is registered", i)
     user_numbers = user_numbers + 100
 
@@ -129,7 +129,7 @@ def createTravelInfo():
                 'startingTime' : str(startTime).replace(' ', 'T'),
                 'endTime' : str(endTime).replace(' ', 'T')
             }
-            addTravel = requests.post(url_travel, headers=heads, json=trip_data,timeout=20)
+            addTravel = requests.post(url_travel, headers=heads, json=trip_data)
 
 def createPrice():
     # in to controler
@@ -155,7 +155,7 @@ def createPrice():
 def test():
     adminLogin = Login('admin', '222222', None)
     heads = adminLogin.getHeaders()
-    q = requests.get(url_travel, headers=heads, timeout=20)
+    q = requests.get(url_travel, headers=heads)
     print(len(json.loads(q.text)['data']))
 
 
