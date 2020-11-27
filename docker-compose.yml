@@ -32,13 +32,13 @@ services:
 #    networks:
 #      - my-network
 
-  ts-a-datainit:
-    build: ts-a-datainit
-    restart: always
-    ports:
-      - 18000:18000
-    networks:
-      - my-network
+#  ts-a-datainit:
+#    build: ts-a-datainit
+#    restart: always
+#    ports:
+#      - 18000:18000
+#    networks:
+#      - my-network
 
   ts-ui-dashboard:
     build: ts-ui-dashboard

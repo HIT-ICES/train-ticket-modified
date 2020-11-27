@@ -2,13 +2,13 @@ version: '2'
 
 services:
 
-  ts-a-datainit:
-    build: ../ts-a-datainit
-    restart: always
-    ports:
-      - 18000:18000
-    networks:
-      - my-network
+#  ts-a-datainit:
+#    build: ../ts-a-datainit
+#    restart: always
+#    ports:
+#      - 18000:18000
+#    networks:
+#      - my-network
 
   ts-train-service:
     build: ../ts-train-service
@@ -116,6 +116,32 @@ services:
     restart: always
     ports:
       - 16114:16114
+    networks:
+      - my-network
+
+  ts-inside-payment-service:
+    build: ../ts-inside-payment-service
+    restart: always
+    ports:
+      - 18673:18673
+    networks:
+      - my-network
+
+  ts-inside-payment-mongo:
+    image: mongo
+    networks:
+      - my-network
+
+  ts-contacts-service:
+    build: ../ts-contacts-service
+    restart: always
+    ports:
+      - "12347:12347"
+    networks:
+      - my-network
+
+  ts-contacts-mongo:
+    image: mongo
     networks:
       - my-network
 
