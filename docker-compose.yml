@@ -32,13 +32,13 @@ services:
 #    networks:
 #      - my-network
 
-#  ts-a-datainit:
-#    build: ts-a-datainit
-#    restart: always
-#    ports:
-#      - 18000:18000
-#    networks:
-#      - my-network
+  ts-a-datainit:
+    build: ts-a-datainit
+    restart: always
+    ports:
+      - 18000:18000
+    networks:
+      - my-network
 
   ts-ui-dashboard:
     build: ts-ui-dashboard
@@ -400,19 +400,19 @@ services:
           networks:
             - my-network
 
-  ts-news-service:
-    build: ts-news-service
-    #image: codewisdom/ts-news-service
-    restart: always
-    ports:
-      - 12862:12862
-    networks:
-      - my-network
-
-  ts-news-mongo:
-        image: mongo
-        networks:
-          - my-network
+#  ts-news-service:
+#    build: ts-news-service
+#    #image: codewisdom/ts-news-service
+#    restart: always
+#    ports:
+#      - 12862:12862
+#    networks:
+#      - my-network
+#
+#  ts-news-mongo:
+#        image: mongo
+#        networks:
+#          - my-network
 
   ts-voucher-mysql:
          image: mysql
