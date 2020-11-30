@@ -40,14 +40,14 @@ services:
     networks:
       - my-network
 
-  ts-ui-dashboard:
-    build: ts-ui-dashboard
-    #image: codewisdom/ts-ui-dashboard
-    restart: always
-    ports:
-      - 8080:8080
-    networks:
-      - my-network
+#  ts-ui-dashboard:
+#    build: ts-ui-dashboard
+#    #image: codewisdom/ts-ui-dashboard
+#    restart: always
+#    ports:
+#      - 8080:8080
+#    networks:
+#      - my-network
 
   ts-auth-service:
     build: ts-auth-service
