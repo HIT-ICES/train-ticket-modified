@@ -6,7 +6,7 @@ mvn clean package -Dmaven.test.skip=true
 # delete docker image
 echo 'delete docker image'
 docker images | grep leizipkin | awk '{print $1}' | xargs docker rmi
-
+docker images | grep leizipkin | awk '{print $3}' | xargs docker rmi
 # build build image
 echo ' build the image'
 docker-compose -f docker-compose.yml -p leizipkin build
