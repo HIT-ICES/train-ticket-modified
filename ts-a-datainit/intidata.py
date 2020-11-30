@@ -180,8 +180,8 @@ def createTravel():
         now = datetime.datetime.now()
         startTime = now + datetime.timedelta(hours=+random.randint(1, 3))
         endTime = startTime + datetime.timedelta(minutes=+cost_time)
-        trip_data['startingTime'] = str(startTime).replace(' ', 'T'),
-        trip_data['endTime'] = str(endTime).replace(' ', 'T'),
+        trip_data['startingTime'] = str(startTime).replace(' ', 'T')
+        trip_data['endTime'] = str(endTime).replace(' ', 'T')
         # 添加行程
         addTravel = requests.post(url=url_travel, headers=heads, json=trip_data)
 
@@ -224,4 +224,3 @@ if __name__ == '__main__':
     app = make_app()
     app.listen(18000)
     tornado.ioloop.IOLoop.current().start()
-    # requests.get("http://localhost:18000/initDataTravel")

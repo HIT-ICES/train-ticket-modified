@@ -411,6 +411,5 @@ public class Travel2ServiceImpl implements Travel2Service {
             return new Response<>(0, noCnontent, null);
         }
     }
-
 }
 
