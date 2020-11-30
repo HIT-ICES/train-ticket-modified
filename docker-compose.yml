@@ -18,12 +18,13 @@ services:
   #   networks:
   #     - my-network
 
-#  zipkin:
-#    image: openzipkin/zipkin
-#    ports:
-#      - 9411:9411
-#    networks:
-#      - my-network
+  zipkin:
+    image: 192.168.1.104:5000/lei/zipkin
+    ports:
+      - 9411:9411
+    networks:
+      - my-network
+
 
 #  redis:
 #    image: redis
