@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -45,5 +46,4 @@ public class RebookInfo {
         this.seatType = 0;
         this.date = new Date();
     }
-
 }

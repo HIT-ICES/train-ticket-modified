@@ -84,7 +84,4 @@ public class ContactsController {
         ContactsController.LOGGER.info("[ContactsService][VerifyLogin] Success.");
         return ok(contactsService.findContactsById(UUID.fromString(id), headers));
     }
-
-
-
 }

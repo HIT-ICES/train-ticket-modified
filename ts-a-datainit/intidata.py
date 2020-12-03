@@ -74,10 +74,10 @@ def createUsersAndConnects():
             connect_data = {
                 'id' : str(uuid.uuid1()),
                 'accountId' : q_data['data']['userId'],
-                'name' : 'Contacts_One',
+                'name' : 'Contacts_One' + str(i),
                 'documentType' : 1,
-                'documentNumber' : 'DocumentNumber_One',
-                'phoneNumber' : 'ContactsPhoneNum_One'
+                'documentNumber' : 'DocumentNumber_One' + str(i),
+                'phoneNumber' : 'ContactsPhoneNum_One' + str(i)
             }
             q1 = requests.post(url_createConnect, json=connect_data, headers=heads)
             print("%d 's people's connect is registered", i)
