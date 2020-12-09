@@ -3,11 +3,7 @@ server:
   port: 19001  # HTTP (Tomcat) port
 
 spring:
-  zipkin:
-    baseUrl: http://zipkin:9411/
-  sleuth:
-    sampler:
-      percentage: 1.0
+
   application:
     name: ts-payment-service
   data:

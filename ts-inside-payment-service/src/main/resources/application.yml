@@ -2,11 +2,7 @@ server:
   port: 18673
 
 spring:
-  zipkin:
-    baseUrl: http://zipkin:9411/
-  sleuth:
-    sampler:
-      percentage: 1.0
+
   application:
     name: ts-inside-payment-service
 
