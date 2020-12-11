@@ -2,6 +2,7 @@ package auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.wangteng.mclient.annotation.MClient;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
@@ -10,6 +11,7 @@ import org.springframework.web.client.RestTemplate;
  * @author fdse
  */
 @SpringBootApplication
+@MClient
 public class AuthApplication {
 
     public static void main(String[] args) {
