@@ -11,10 +11,8 @@ docker images | grep framework | awk '{print $3}' | xargs docker rmi
 echo ' build the image'
 docker-compose -f docker-compose.yml -p framework build
 
-# tag image
 echo 'tag the image'
 docker images | grep framework | awk '{print "docker tag"" "$1":"$2 " ""192.168.1.104:5000/"$1":"$2}'| sh
 
-# docker push
 echo 'docker push to the registry'
 docker images | grep 192.168.1.104:5000/framework | awk '{print "docker push"" "$1":"$2}' | sh
