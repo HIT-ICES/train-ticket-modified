@@ -401,8 +401,8 @@ services:
       #    networks:
 #      - my-network
 
-#  ts-news-service:
-#    build: ts-news-service
+  ts-news-service:
+    build: ts-news-service
 #    #image: codewisdom/ts-news-service
 ##    restart: always
 #    ports:

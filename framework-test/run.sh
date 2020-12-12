@@ -8,5 +8,5 @@ kubectl delete pods --all -n default
 
 
 kubectl apply -f before.yaml
-
+sleep 10s
 kubectl apply -f after.yaml
