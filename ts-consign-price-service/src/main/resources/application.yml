@@ -1,5 +1,4 @@
 spring:
-
   application:
     name: ts-consign-price-service
   data:

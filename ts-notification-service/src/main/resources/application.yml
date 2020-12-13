@@ -12,7 +12,6 @@ server:
 #      port: 27017
 
 spring:
-
   application:
     name: ts-notification-service
   mail:

@@ -2,7 +2,6 @@ server:
   port: 12386
 
 spring:
-
   application:
     name: ts-execute-service
 swagger:

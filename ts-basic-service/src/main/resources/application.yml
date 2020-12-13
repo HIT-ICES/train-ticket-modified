@@ -2,7 +2,6 @@ server:
   port: 15680
 
 spring:
-
   application:
     name: ts-basic-service
 

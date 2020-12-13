@@ -2,7 +2,6 @@ server:
   port: 16115
 
 spring:
-
   application:
     name: ts-admin-user-service
 

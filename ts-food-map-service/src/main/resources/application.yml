@@ -2,7 +2,6 @@ server:
   port: 18855
 
 spring:
-
   application:
     name: ts-food-map-service
   data:

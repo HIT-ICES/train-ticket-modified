@@ -1,7 +1,6 @@
 spring:
-
   application:
-      name: ts-config-service
+    name: ts-config-service
   data:
     mongodb:
       host: ts-config-mongo

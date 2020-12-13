@@ -2,10 +2,8 @@ server:
   port: 18673
 
 spring:
-
   application:
     name: ts-inside-payment-service
-
   data:
     mongodb:
       host: ts-inside-payment-mongo

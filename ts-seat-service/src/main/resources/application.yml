@@ -2,7 +2,6 @@ server:
   port: 18898
 
 spring:
-
   application:
     name: ts-seat-service
 

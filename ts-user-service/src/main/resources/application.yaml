@@ -2,7 +2,6 @@ server:
   port: 12342
 
 spring:
-
   application:
     name: ts-user-service
   data:

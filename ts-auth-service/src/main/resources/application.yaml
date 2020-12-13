@@ -1,7 +1,7 @@
 server:
   port: 12340
-spring:
 
+spring:
   application:
     name: ts-auth-service
   data:

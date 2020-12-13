@@ -2,7 +2,6 @@ server:
   port: 18856
 
 spring:
-
   application:
     name: ts-food-service
   data:
