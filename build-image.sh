@@ -15,4 +15,4 @@ echo 'tag the image'
 docker images | grep framework | awk '{print "docker tag"" "$1":"$2 " ""192.168.1.104:5000/"$1":"$2}'| sh
 
 echo 'docker push to the registry'
-docker images | grep 192.168..104:5000/framework | awk '{print "docker push"" "$1":"$2}' | sh
+docker images | grep 192.168.1.104:5000/framework | awk '{print "docker push"" "$1":"$2}' | sh
