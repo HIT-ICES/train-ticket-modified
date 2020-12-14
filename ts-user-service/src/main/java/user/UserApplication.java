@@ -8,7 +8,7 @@ import com.wangteng.mclient.annotation.MClient;
  * @author fdse
  */
 @SpringBootApplication
-@MClient
+//@MClient
 public class UserApplication {
     public static void main(String[] args) {
         SpringApplication.run(UserApplication.class, args);
