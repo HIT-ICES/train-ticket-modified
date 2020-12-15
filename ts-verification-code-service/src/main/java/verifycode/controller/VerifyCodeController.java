@@ -27,9 +27,8 @@ public class VerifyCodeController {
     private VerifyCodeService verifyCodeService;
 
     @GetMapping("/generate")
-    public void imageCode(@RequestHeader HttpHeaders headers,
-                          HttpServletRequest request,
-                          HttpServletResponse response) throws IOException {
+    public void imageCode(HttpServletRequest request,
+                          HttpServletResponse response, @RequestHeader HttpHeaders headers) throws IOException {
         OutputStream os = response.getOutputStream();
         Map<String, Object> map = verifyCodeService.getImageCode(60, 20, os, request, response, headers);
         String simpleCaptcha = "simpleCaptcha";
