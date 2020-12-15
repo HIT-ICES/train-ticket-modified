@@ -13,6 +13,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -46,7 +47,7 @@ public class AuthControllerTest {
     @Test
     public void testCreateDefaultUser() throws Exception {
         AuthDto authDto = new AuthDto();
-        Mockito.when(userService.createDefaultAuthUser(Mockito.any(AuthDto.class))).thenReturn(null);
+        Mockito.when(userService.createDefaultAuthUser(Mockito.any(AuthDto.class), new HttpHeaders())).thenReturn(null);
         String requestJson = JSONObject.toJSONString(authDto);
         String result = mockMvc.perform(MockMvcRequestBuilders.post("/api/v1/auth").contentType(MediaType.APPLICATION_JSON).content(requestJson))
                 .andExpect(MockMvcResultMatchers.status().isCreated())

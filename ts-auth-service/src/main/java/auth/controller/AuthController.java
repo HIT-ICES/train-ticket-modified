@@ -5,6 +5,7 @@ import auth.service.UserService;
 import edu.fudan.common.util.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -31,8 +32,8 @@ public class AuthController {
     }
 
     @PostMapping
-    public HttpEntity<Response> createDefaultUser(@RequestBody AuthDto authDto) {
-        userService.createDefaultAuthUser(authDto);
+    public HttpEntity<Response> createDefaultUser(@RequestBody AuthDto authDto, @RequestHeader HttpHeaders httpHeaders) {
+        userService.createDefaultAuthUser(authDto, httpHeaders);
         Response response = new Response(1, "SUCCESS", authDto);
         return new ResponseEntity<>(response, HttpStatus.CREATED);
     }

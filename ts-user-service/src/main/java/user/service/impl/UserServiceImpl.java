@@ -54,7 +54,7 @@ public class UserServiceImpl implements UserService {
 
             createDefaultAuthUser(AuthDto.builder().userId(userId + "")
                     .userName(user.getUserName())
-                    .password(user.getPassword()).build());
+                    .password(user.getPassword()).build(), headers);
 
             User userSaveResult = userRepository.save(user);
             LOGGER.info("Send authorization message to ts-auth-service....");
@@ -65,11 +65,10 @@ public class UserServiceImpl implements UserService {
         }
     }
 
-    private Response createDefaultAuthUser(AuthDto dto) {
+    private Response createDefaultAuthUser(AuthDto dto, HttpHeaders httpHeaders) {
         LOGGER.info("CALL TO AUTH");
         LOGGER.info("AuthDto : " + dto.toString());
-        HttpHeaders headers = new HttpHeaders();
-        HttpEntity<AuthDto> entity = new HttpEntity<>(dto, headers);
+        HttpEntity<AuthDto> entity = new HttpEntity<>(dto, httpHeaders);
         ResponseEntity<Response<AuthDto>> res  = restTemplate.exchange("http://ts-auth-service:12340/api/v1/auth",
                 HttpMethod.POST,
                 entity,

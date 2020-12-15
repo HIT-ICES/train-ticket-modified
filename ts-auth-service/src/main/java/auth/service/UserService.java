@@ -35,7 +35,7 @@ public interface UserService {
      * @param dto dto
      * @return user
      */
-    User createDefaultAuthUser(AuthDto dto);
+    User createDefaultAuthUser(AuthDto dto, HttpHeaders httpHeaders);
 
     /**
      * delete by user id

@@ -57,7 +57,7 @@ public class UserServiceImplTest {
         User user = new User();
         Mockito.when(userRepository.save(user)).thenReturn(user);
         Mockito.when(passwordEncoder.encode(dto.getPassword())).thenReturn("password");
-        Assert.assertEquals(null, userServiceImpl.createDefaultAuthUser(dto));
+        Assert.assertEquals(null, userServiceImpl.createDefaultAuthUser(dto, new HttpHeaders()));
     }
 
     @Test
