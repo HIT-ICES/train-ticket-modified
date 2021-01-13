@@ -314,7 +314,6 @@ public class TravelServiceImpl implements TravelService {
                 requestEntity,
                 new ParameterizedTypeReference<Response<TrainType>>() {
                 });
-
         return re.getBody().getData();
     }
 
@@ -327,7 +326,6 @@ public class TravelServiceImpl implements TravelService {
                 new ParameterizedTypeReference<Response<String>>() {
                 });
         TravelServiceImpl.LOGGER.info("Query for Station id is: {}", re.getBody().toString());
-
         return re.getBody().getData();
     }
 
