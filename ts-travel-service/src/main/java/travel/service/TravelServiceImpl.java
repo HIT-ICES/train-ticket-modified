@@ -66,7 +66,7 @@ public class TravelServiceImpl implements TravelService {
     }
 
     @Override
-    public Response getTrainTypeByTripId(String tripId, HttpHeaders headers) {
+    public Response<TrainType> getTrainTypeByTripId(String tripId, HttpHeaders headers) {
         TripId tripId1 = new TripId(tripId);
         TrainType trainType = null;
         Trip trip = repository.findByTripId(tripId1);
@@ -359,6 +359,10 @@ public class TravelServiceImpl implements TravelService {
         seatRequest.setTrainNumber(trainNumber);
         seatRequest.setTravelDate(travelDate);
         seatRequest.setSeatType(seatType);
+
+        //新增
+        seatRequest.setRoute(getRouteByRouteId(trainNumber, headers));
+        seatRequest.setTrainType(getTrainTypeByTripId(trainNumber, headers).getData());
 
         TravelServiceImpl.LOGGER.info("Seat request To String: {}", seatRequest.toString());
 

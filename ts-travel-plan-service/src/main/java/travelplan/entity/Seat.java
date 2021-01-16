@@ -20,6 +20,11 @@ public class Seat {
 
     private int seatType;
 
+
+    private Route route;
+    private TrainType trainType;
+
+
     public Seat(){
         //Default Constructor
     }

@@ -208,6 +208,44 @@ public class TravelPlanServiceImpl implements TravelPlanService {
         seatRequest.setTravelDate(travelDate);
         seatRequest.setSeatType(seatType);
 
+        // 新增
+        if (trainNumber.startsWith("G") || trainNumber.startsWith("D")) {
+            HttpEntity requestEntity = new HttpEntity(headers);
+            ResponseEntity<Response<Route>> re = restTemplate.exchange(
+                    "http://ts-travel-service:12346/api/v1/travelservice/routes/" + trainNumber,
+                    HttpMethod.GET,
+                    requestEntity,
+                    new ParameterizedTypeReference<Response<Route>>() {
+                    });
+            requestEntity = new HttpEntity(headers);
+            ResponseEntity<Response<TrainType>> re2 = restTemplate.exchange(
+                    "http://ts-travel-service:12346/api/v1/travelservice/train_types/" + seatRequest.getTrainNumber(),
+                    HttpMethod.GET,
+                    requestEntity,
+                    new ParameterizedTypeReference<Response<TrainType>>() {
+                    });
+            seatRequest.setRoute(re.getBody().getData());
+            seatRequest.setTrainType(re2.getBody().getData());
+        }else{
+            HttpEntity requestEntity = new HttpEntity(headers);
+            ResponseEntity<Response<Route>> re = restTemplate.exchange(
+                    "http://ts-travel2-service:16346/api/v1/travel2service/routes/" + trainNumber,
+                    HttpMethod.GET,
+                    requestEntity,
+                    new ParameterizedTypeReference<Response<Route>>() {
+                    });
+            requestEntity = new HttpEntity(headers);
+            ResponseEntity<Response<TrainType>> re2 = restTemplate.exchange(
+                    "http://ts-travel2-service:16346/api/v1/travel2service/train_types/" + seatRequest.getTrainNumber(),
+                    HttpMethod.GET,
+                    requestEntity,
+                    new ParameterizedTypeReference<Response<TrainType>>() {
+                    });
+            seatRequest.setRoute(re.getBody().getData());
+            seatRequest.setTrainType(re2.getBody().getData());
+        }
+        
+
         TravelPlanServiceImpl.LOGGER.info("Seat Request is: {}", seatRequest.toString());
         HttpEntity requestEntity = new HttpEntity(seatRequest, headers);
         ResponseEntity<Response<Integer>> re = restTemplate.exchange(

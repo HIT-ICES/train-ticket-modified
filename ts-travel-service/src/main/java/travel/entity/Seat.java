@@ -32,6 +32,12 @@ public class Seat {
     @NotNull
     private int seatType;
 
+    // 携带的参数
+    private Route route;
+
+    private TrainType trainType;
+
+
     public Seat(){
         //Default Constructor
         this.travelDate = new Date();
@@ -39,6 +45,10 @@ public class Seat {
         this.startStation = "";
         this.destStation = "";
         this.seatType = 0;
+
+        // 新增
+        this.route = new Route();
+        this.trainType = new TrainType();
     }
 
     @Override
@@ -49,6 +59,8 @@ public class Seat {
                 ", startStation='" + startStation + '\'' +
                 ", destStation='" + destStation + '\'' +
                 ", seatType=" + seatType +
+                ", route=" + route +
+                ", trainType=" + trainType +
                 '}';
     }
 }
