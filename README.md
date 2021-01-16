@@ -1,4 +1,4 @@
-## 复旦火车票系统
+## 复旦火车票系统(此份之未原系统上增加 mclientframework——hit编程框架)
 原系统[train ticket](https://github.com/FudanSELab/train-ticket)
 
 系统的理解等一些方面，逻辑图：

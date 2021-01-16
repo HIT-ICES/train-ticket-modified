@@ -5,102 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/ts-deploy-after.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/ts-deploy-before.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/ts-ui.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/zipkin-tickect.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-k8s-test/zipkin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-test/run-jaeger.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-test/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-test/run1.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-test/user-compose-withjager.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-test/user-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy-test/zipkin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/luoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zipkin-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zipkin-server/zipkin-server-2.16.0-exec.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-order-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-order-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-route-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-route-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-route-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-route-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-travel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-travel-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-travel-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-travel-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-user-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-user-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-assurance-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-assurance-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-assurance-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-assurance-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-auth-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-auth-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-auth-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-auth-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-basic-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basic-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-basic-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-basic-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-cancel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-cancel-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-cancel-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-cancel-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-config-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-config-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-config-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-consign-price-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-price-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-consign-price-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-price-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-consign-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-consign-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-consign-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-contacts-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-contacts-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-contacts-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-contacts-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-execute-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-execute-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-execute-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-execute-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-food-map-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-map-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-food-map-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-map-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-food-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-food-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-food-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-inside-payment-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-inside-payment-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-inside-payment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-inside-payment-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-notification-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-notification-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-notification-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-notification-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-order-other-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-other-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-order-other-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-other-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-order-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-payment-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-payment-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-payment-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-payment-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-preserve-other-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-other-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-preserve-other-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-other-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-preserve-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-preserve-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-preserve-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-price-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-price-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-price-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-price-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-rebook-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-rebook-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-rebook-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-rebook-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-route-plan-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-plan-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-route-plan-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-plan-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-route-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-route-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-route-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-seat-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-seat-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-seat-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-seat-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-security-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-security-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-security-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-security-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-station-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-station-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-station-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-station-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-ticket-office-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ticket-office-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-ticketinfo-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ticketinfo-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-ticketinfo-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ticketinfo-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-train-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-train-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-train-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-train-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel2-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel2-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-ui-dashboard/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-ui-dashboard/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-user-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-user-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-user-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-user-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-verification-code-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-verification-code-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-verification-code-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-verification-code-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-voucher-service/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ts-voucher-service/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -127,6 +38,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -403,7 +316,10 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="" />
@@ -412,17 +328,30 @@
       <option name="presentableId" value="Default" />
       <updated>1604411658885</updated>
       <workItem from="1604411660025" duration="1023000" />
+      <workItem from="1610764736716" duration="2687000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更改readme.md #MCS-95 smell实验" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改readme.md #MCS-95 smell实验" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1610767432905">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610767432905" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1604411989926">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610764739410">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610764739410" />
     <state x="578" y="184" width="764" height="784" key="find.popup" timestamp="1604412219986">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
