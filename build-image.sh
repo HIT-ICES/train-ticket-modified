@@ -5,8 +5,8 @@ mvn clean package -Dmaven.test.skip=true
 
 # delete docker image
 echo 'delete docker image'
-docker images | grep nocirclesmell | awk '{print $1}' | xargs docker rmi
-docker images | grep nocirclesmell | awk '{print $3}' | xargs docker rmi
+docker images | grep nocirclesmell | awk '{print $1}' | xargs docker rmi -f
+docker images | grep nocirclesmell | awk '{print $3}' | xargs docker rmi -f
 # build build image
 echo ' build the image'
 docker-compose -f docker-compose.yml -p nocirclesmell build

@@ -1,6 +1,26 @@
 
-‰
-java:S13193"sThe type of the "routeIds" object should be an interface such as "List" rather than the implementation "ArrayList".(Œ÷†º
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸¯õ
 A
 java:S1452;"&Remove usage of generic wildcard type.(ÿıĞúÿÿÿÿ
+‰
+java:S13193"sThe type of the "routeIds" object should be an interface such as "List" rather than the implementation "ArrayList".(Œ÷†º
+L
+java:S3740$"/Provide the parametrized type for this generic.(àşÉö8úŸğğ.
+K
+java:S3740+"/Provide the parametrized type for this generic.(²‡‘N8úŸğğ.
+L
+java:S37403"/Provide the parametrized type for this generic.(Œ÷†º8úŸğğ.
+L
+java:S3740I"/Provide the parametrized type for this generic.(£­–Ñ8úŸğğ.
+Q
+java:S3740P"/Provide the parametrized type for this generic.(Ö›²Áúÿÿÿÿ8úŸğğ.
+Q
+java:S3740W"/Provide the parametrized type for this generic.( æ…şÿÿÿÿ8úŸğğ.
+L
+java:S3740e"/Provide the parametrized type for this generic.(±ÁåŠ8úŸğğ.
+Q
+java:S3740z"/Provide the parametrized type for this generic.(ÇÓÖ®ÿÿÿÿÿ8úŸğğ.
+R
+java:S3740€"/Provide the parametrized type for this generic.(„çÅÖùÿÿÿÿ8úŸğğ.
+M
+java:S3740‡"/Provide the parametrized type for this generic.(­¸°8úŸğğ.
