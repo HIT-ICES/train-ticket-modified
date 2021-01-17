@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/entity/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/entity/TrainType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27367ef9d7bd5d6d341b27c559b22062f60eac2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27367ef9d7bd5d6d341b27c559b22062f60eac2f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f27c6db1f6398718754d831c9a6e5d776471cb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f27c6db1f6398718754d831c9a6e5d776471cb7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4aa60e92cb777c4cad60201e9ae0c63f773acf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4aa60e92cb777c4cad60201e9ae0c63f773acf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-seat-service/src/main/java/seat/entity/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-seat-service/src/main/java/seat/entity/Seat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-seat-service/src/main/java/seat/service/SeatServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/entity/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/entity/Seat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel-service/src/main/java/travel/entity/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-service/src/main/java/travel/entity/Seat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travel2-service/src/main/java/travel2/entity/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/src/main/java/travel2/entity/Seat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/src/main/java/travel2/service/Travel2ServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -342,7 +337,8 @@
       <updated>1604411658885</updated>
       <workItem from="1604411660025" duration="1023000" />
       <workItem from="1610764736716" duration="6907000" />
-      <workItem from="1610773914160" duration="2620000" />
+      <workItem from="1610773914160" duration="4770000" />
+      <workItem from="1610847711904" duration="759000" />
     </task>
     <task id="LOCAL-00001" summary="更改readme.md #MCS-95 smell实验">
       <created>1610767438558</created>
@@ -365,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610771979812</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="消除了依赖环 #MCS-95 smell实验">
+      <created>1610776628936</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610776628936</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,17 +378,18 @@
     <MESSAGE value="更改readme.md #MCS-95 smell实验" />
     <MESSAGE value="初始化依赖环依赖 #MCS-95 smell实验" />
     <MESSAGE value="更改idea的maven环境配置 #MCS-95 smell实验" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改idea的maven环境配置 #MCS-95 smell实验" />
+    <MESSAGE value="消除了依赖环 #MCS-95 smell实验" />
+    <option name="LAST_COMMIT_MESSAGE" value="消除了依赖环 #MCS-95 smell实验" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1610774897087">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1610774897087" />
-    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1610771970151">
+    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1610848538665">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610771970151" />
+    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610848538665" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1610772066492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -395,14 +399,14 @@
     </state>
     <state x="443" y="107" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610774535809" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610771990229">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610776643743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610771990229" />
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610773971702">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610776643743" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610847711930">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610773971702" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610847711930" />
     <state x="578" y="161" width="1148" height="805" key="find.popup" timestamp="1610775898888">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

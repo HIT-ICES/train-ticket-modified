@@ -244,7 +244,7 @@ public class TravelPlanServiceImpl implements TravelPlanService {
             seatRequest.setRoute(re.getBody().getData());
             seatRequest.setTrainType(re2.getBody().getData());
         }
-        
+
 
         TravelPlanServiceImpl.LOGGER.info("Seat Request is: {}", seatRequest.toString());
         HttpEntity requestEntity = new HttpEntity(seatRequest, headers);

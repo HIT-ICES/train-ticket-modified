@@ -35,7 +35,7 @@ public class Travel2ServiceImpl implements Travel2Service {
     String noCnontent = "No Content";
 
     @Override
-    public Response getRouteByTripId(String tripId, HttpHeaders headers) {
+    public Response<Route> getRouteByTripId(String tripId, HttpHeaders headers) {
         TripId tripId1 = new TripId(tripId);
 
         Trip trip = repository.findByTripId(tripId1);
@@ -381,7 +381,7 @@ public class Travel2ServiceImpl implements Travel2Service {
         seatRequest.setTravelDate(travelDate);
 
         //新增
-        seatRequest.setRoute(getRouteByRouteId(trainNumber, headers));
+        seatRequest.setRoute(getRouteByTripId(trainNumber, headers).getData());
         seatRequest.setTrainType(getTrainTypeByTripId(trainNumber, headers).getData());
 
         Travel2ServiceImpl.LOGGER.info("Seat request To String: {}", seatRequest.toString());

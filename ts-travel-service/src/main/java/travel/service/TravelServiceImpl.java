@@ -49,7 +49,7 @@ public class TravelServiceImpl implements TravelService {
     }
 
     @Override
-    public Response getRouteByTripId(String tripId, HttpHeaders headers) {
+    public Response<Route> getRouteByTripId(String tripId, HttpHeaders headers) {
         Route route = null;
         if (null != tripId && tripId.length() >= 2) {
             TripId tripId1 = new TripId(tripId);
@@ -361,7 +361,7 @@ public class TravelServiceImpl implements TravelService {
         seatRequest.setSeatType(seatType);
 
         //新增
-        seatRequest.setRoute(getRouteByRouteId(trainNumber, headers));
+        seatRequest.setRoute(getRouteByTripId(trainNumber, headers).getData());
         seatRequest.setTrainType(getTrainTypeByTripId(trainNumber, headers).getData());
 
         TravelServiceImpl.LOGGER.info("Seat request To String: {}", seatRequest.toString());
@@ -374,7 +374,6 @@ public class TravelServiceImpl implements TravelService {
                 new ParameterizedTypeReference<Response<Integer>>() {
                 });
         TravelServiceImpl.LOGGER.info("Get Rest tickets num is: {}", re.getBody().toString());
-
         return re.getBody().getData();
     }
 
