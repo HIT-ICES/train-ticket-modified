@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/011c10f206adbcfec2472162afce38c5ff3562e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/011c10f206adbcfec2472162afce38c5ff3562e9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04ddccb2658b5ff8cc9516e74b6753c4ba1d8aa9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04ddccb2658b5ff8cc9516e74b6753c4ba1d8aa9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27367ef9d7bd5d6d341b27c559b22062f60eac2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27367ef9d7bd5d6d341b27c559b22062f60eac2f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59b0d1acea9f4e7db19fe5746e398e5778d42c69" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59b0d1acea9f4e7db19fe5746e398e5778d42c69" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4aa60e92cb777c4cad60201e9ae0c63f773acf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4aa60e92cb777c4cad60201e9ae0c63f773acf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d77a41b5ada854b91f74511d03063de3b79c99" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d77a41b5ada854b91f74511d03063de3b79c99" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,7 +332,7 @@
       <workItem from="1610764736716" duration="6907000" />
       <workItem from="1610773914160" duration="4770000" />
       <workItem from="1610847711904" duration="1149000" />
-      <workItem from="1610850887396" duration="68000" />
+      <workItem from="1610850887396" duration="1947000" />
     </task>
     <task id="LOCAL-00001" summary="更改readme.md #MCS-95 smell实验">
       <created>1610767438558</created>
@@ -377,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610848551652</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改 消除依赖环过程中的错误 #MCS-95 smell实验">
+      <created>1610851004956</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610851004956</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,10 +395,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1610774897087" />
-    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1610848538665">
+    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1610865719353">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610848538665" />
+    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610865719353" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1610772066492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -409,10 +408,10 @@
     </state>
     <state x="443" y="107" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1610774535809" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610848827758">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610851007206">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610848827758" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610851007206" />
     <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610847711930">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
