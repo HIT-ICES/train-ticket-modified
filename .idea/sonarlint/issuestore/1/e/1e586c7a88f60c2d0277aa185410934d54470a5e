@@ -1,0 +1,29 @@
+
+m
+java:S3776x"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(š¸¶Âÿÿÿÿÿ
+}
+java:S3457Í"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(ëâ¦ñşÿÿÿÿ
+E
+java:S3740)"/Provide the parametrized type for this generic.(ÃÆØË
+s
+java:S2629‘"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(îÚÅ½
+|
+java:S34574"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(–àùÿÿÿÿ
+K
+java:S3740Æ"/Provide the parametrized type for this generic.(€€Ñ„ıÿÿÿÿ
+@
+java:S2629—"$Invoke method(s) only conditionally.(Ê°È¨ùÿÿÿÿ
+K
+java:S3740Æ"/Provide the parametrized type for this generic.(€€Ñ„ıÿÿÿÿ
+?
+java:S26294"$Invoke method(s) only conditionally.(–àùÿÿÿÿ
+@
+java:S2629Í"$Invoke method(s) only conditionally.(ëâ¦ñşÿÿÿÿ
+X
+java:S3457‘"AFormat specifiers should be used instead of string concatenation.(îÚÅ½
+E
+java:S3740)"/Provide the parametrized type for this generic.(ÃÆØË
+}
+java:S3457—"aNo need to call "toString()" method as formatting and string conversion is done by the Formatter.(Ê°È¨ùÿÿÿÿ
+J
+java:S3740n"/Provide the parametrized type for this generic.(öÏåùÿÿÿÿ

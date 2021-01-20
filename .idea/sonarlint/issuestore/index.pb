@@ -329,3 +329,23 @@ Rts-travel-plan-service/src/main/java/travelplan/service/TravelPlanServiceImpl.j
 Lts-route-plan-service/src/main/java/plan/controller/RoutePlanController.java,1\8\1849e7228f68d1af6eb2c51b221365cb93c8bb98
 z
 Jts-route-plan-service/src/main/java/plan/service/RoutePlanServiceImpl.java,e\6\e66c0e28114de8094bbf689365a123df42de5656
+
+Ots-order-other-service/src/main/java/other/controller/OrderOtherController.java,8\e\8e13dea77cffae9252836084ba9d00bdd46656c7
+}
+Mts-order-other-service/src/main/java/other/service/OrderOtherServiceImpl.java,1\e\1e586c7a88f60c2d0277aa185410934d54470a5e
+
+Ots-order-other-service/src/main/java/other/repository/OrderOtherRepository.java,d\d\ddfc3dbcdc3fafdf3b2f184548c249e77f5569a7
+u
+Ets-order-other-service/src/main/java/other/OrderOtherApplication.java,8\d\8dcd6186a23139ab8d4d87ceb367688d5a500098
+t
+Dts-order-service/src/main/java/order/controller/OrderController.java,1\b\1b617b93cbfdccab546e578db9bc29dfc53901f3
+u
+Ets-order-other-service/src/main/java/other/config/SecurityConfig.java,e\5\e5194664085e15ba66c79099fcf5c8c6d6a8bb0c
+o
+?ts-order-service/src/main/java/order/config/SecurityConfig.java,2\8\28cc1d4ad59e3ae9f7cadf406ad86cbc81e7dad5
+y
+Its-order-other-service/src/main/java/other/service/OrderOtherService.java,a\7\a71a2a32669a95ec9c97d91416491c1db1cc7422
+O
+ts-news-service/src/main/lib.go,2\f\2f00d7a9161c5954caa90addc9ead6f95bbdd3a1
+P
+ ts-news-service/src/main/main.go,0\2\020b4a0f6f71f89f4f1607402fe7d2938a185458
