@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="修改 消除依赖环过程中的错误 #MCS-95 smell实验">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b617b93cbfdccab546e578db9bc29dfc53901f3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1b617b93cbfdccab546e578db9bc29dfc53901f3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e586c7a88f60c2d0277aa185410934d54470a5e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e586c7a88f60c2d0277aa185410934d54470a5e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21d3b3166f3cb7b4f85e1a6c931d5c01d2e28126" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/21d3b3166f3cb7b4f85e1a6c931d5c01d2e28126" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27367ef9d7bd5d6d341b27c559b22062f60eac2f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/27367ef9d7bd5d6d341b27c559b22062f60eac2f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59b0d1acea9f4e7db19fe5746e398e5778d42c69" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59b0d1acea9f4e7db19fe5746e398e5778d42c69" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f27c6db1f6398718754d831c9a6e5d776471cb7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f27c6db1f6398718754d831c9a6e5d776471cb7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e13dea77cffae9252836084ba9d00bdd46656c7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e13dea77cffae9252836084ba9d00bdd46656c7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4aa60e92cb777c4cad60201e9ae0c63f773acf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e4aa60e92cb777c4cad60201e9ae0c63f773acf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a71a2a32669a95ec9c97d91416491c1db1cc7422" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a71a2a32669a95ec9c97d91416491c1db1cc7422" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d77a41b5ada854b91f74511d03063de3b79c99" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5d77a41b5ada854b91f74511d03063de3b79c99" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-rebook-service/src/main/java/rebook/controller/RebookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-rebook-service/src/main/java/rebook/controller/RebookController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +343,7 @@
       <workItem from="1611474801173" duration="145000" />
       <workItem from="1611813462331" duration="614000" />
       <workItem from="1611818033482" duration="2645000" />
-      <workItem from="1611906381723" duration="1906000" />
+      <workItem from="1611906381723" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="更改readme.md #MCS-95 smell实验">
       <created>1610767438558</created>
@@ -413,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611125654830</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改 消除依赖环过程中的错误 #MCS-95 smell实验">
+      <created>1611908525105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611908525105</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,10 +427,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1610774897087" />
-    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1611907708080">
+    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1611908519775">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611907708080" />
+    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611908519775" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1610772066492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -449,10 +444,10 @@
     </state>
     <state x="443" y="107" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611907084171" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1610865747013">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611908528340">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1610865747013" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611908528340" />
     <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1611818053895">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
