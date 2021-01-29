@@ -36,6 +36,7 @@ public class RebookController {
 
     @PostMapping(value = "/rebook")
     public HttpEntity rebook(@RequestBody RebookInfo info, @RequestHeader HttpHeaders headers) {
+
         RebookController.LOGGER.info("[Rebook Service] OrderId: {}  Old Trip Id: {}  New Trip Id: {}  Date: {}  Seat Type: {}", info.getOrderId(), info.getOldTripId(), info.getTripId(), info.getDate(), info.getSeatType());
         return ok(service.rebook(info, headers));
     }
