@@ -344,7 +344,7 @@
       <workItem from="1611813462331" duration="614000" />
       <workItem from="1611818033482" duration="2645000" />
       <workItem from="1611906381723" duration="2132000" />
-      <workItem from="1611987575391" duration="598000" />
+      <workItem from="1611987575391" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="更改readme.md #MCS-95 smell实验">
       <created>1610767438558</created>
@@ -409,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611908525105</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改 消除依赖环过程中的错误 #MCS-95 smell实验">
+      <created>1611988241858</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611988241858</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,10 +435,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1610774897087" />
-    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1611908519775">
+    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1611988239472">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611908519775" />
+    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611988239472" />
     <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1610772066492">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -445,10 +452,10 @@
     </state>
     <state x="443" y="107" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611907084171" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611908528340">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611988246884">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611908528340" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611988246884" />
     <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1611818053895">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -458,10 +465,10 @@
     </state>
     <state x="578" y="161" width="1148" height="805" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610775898888" />
     <state x="578" y="184" width="764" height="784" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604412219986" />
-    <state x="722" y="252" key="git4idea.branch.GitSmartOperationDialog" timestamp="1611988224933">
+    <state x="722" y="252" key="git4idea.branch.GitSmartOperationDialog" timestamp="1611988493058">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="722" y="252" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611988224933" />
+    <state x="722" y="252" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611988493058" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1610775444055">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
