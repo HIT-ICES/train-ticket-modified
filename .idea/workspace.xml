@@ -42,7 +42,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ts-travel-plan-service/src/main/java/travelplan/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -344,6 +344,7 @@
       <workItem from="1611813462331" duration="614000" />
       <workItem from="1611818033482" duration="2645000" />
       <workItem from="1611906381723" duration="2132000" />
+      <workItem from="1611987575391" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="更改readme.md #MCS-95 smell实验">
       <created>1610767438558</created>
@@ -457,6 +458,10 @@
     </state>
     <state x="578" y="161" width="1148" height="805" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1610775898888" />
     <state x="578" y="184" width="764" height="784" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604412219986" />
+    <state x="722" y="252" key="git4idea.branch.GitSmartOperationDialog" timestamp="1611988224933">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="722" y="252" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611988224933" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1610775444055">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
