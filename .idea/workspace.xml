@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
+    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="更改 #MCS-95 smell实验">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -337,16 +337,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更改readme.md #MCS-95 smell实验" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改readme.md #MCS-95 smell实验" />
+    <MESSAGE value="更改.sh #MCS-95 smell实验" />
+    <MESSAGE value="更改 #MCS-95 smell实验" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改 #MCS-95 smell实验" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1610767432905">
+    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1611988909965">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1610767432905" />
-    <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1604411989926">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611988909965" />
+    <state x="443" y="107" width="1024" height="852" key="SettingsEditor" timestamp="1611988948102">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="443" y="107" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611988948102" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
     <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610764739410">
       <screen x="0" y="0" width="1920" height="1080" />
