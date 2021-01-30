@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 docker rmi lei_python:3
 docker build -t lei_python:3 .
