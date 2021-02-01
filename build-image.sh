@@ -12,7 +12,7 @@ echo ' build the image'
 docker-compose -f docker-compose.yml -p nocirclesmell build
 
 echo 'tag the image'
-docker images | grep nocirclesmell | awk '{print "docker tag"" "$1":"$2 " ""172.31.15.247:5000/"$1":"$2}'| sh
+docker images | grep nocirclesmell | awk '{print "docker tag"" "$1":"$2 " ""172.31.22.168:5000/"$1":"$2}'| sh
 
 echo 'docker push to the registry'
-docker images | grep 172.31.15.247:5000/nocirclesmell | awk '{print "docker push"" "$1":"$2}' | sh
+docker images | grep 172.31.22.168:5000/nocirclesmell | awk '{print "docker push"" "$1":"$2}' | sh
