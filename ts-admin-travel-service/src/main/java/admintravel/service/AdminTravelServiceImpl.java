@@ -75,9 +75,9 @@ public class AdminTravelServiceImpl implements AdminTravelService {
         Response resultResponse;
         String requestUrl;
         if (request.getTrainTypeId().charAt(0) == 'G' || request.getTrainTypeId().charAt(0) == 'D') {
-            requestUrl = "http://ts-travel-service:12346/api/v1/travelservice/trips";
+            requestUrl = "http://ts-travels-service:12346/api/v1/travelsservice/trips";
         } else {
-            requestUrl = "http://ts-travel2-service:16346/api/v1/travel2service/trips";
+            requestUrl = "http://ts-travels2-service:16346/api/v1/travels2service/trips";
         }
         HttpEntity requestEntity = new HttpEntity(request, headers);
         ResponseEntity<Response> re = restTemplate.exchange(
@@ -101,9 +101,9 @@ public class AdminTravelServiceImpl implements AdminTravelService {
 
         String requestUrl = "";
         if (request.getTrainTypeId().charAt(0) == 'G' || request.getTrainTypeId().charAt(0) == 'D') {
-            requestUrl = "http://ts-travel-service:12346/api/v1/travelservice/trips";
+            requestUrl = "http://ts-travels-service:12346/api/v1/travelsservice/trips";
         } else {
-            requestUrl = "http://ts-travel2-service:16346/api/v1/travel2service/trips";
+            requestUrl = "http://ts-travels2-service:16346/api/v1/travels2service/trips";
         }
         HttpEntity requestEntity = new HttpEntity(request, headers);
         ResponseEntity<Response> re = restTemplate.exchange(
@@ -122,9 +122,9 @@ public class AdminTravelServiceImpl implements AdminTravelService {
         Response result;
         String requestUtl = "";
         if (tripId.charAt(0) == 'G' || tripId.charAt(0) == 'D') {
-            requestUtl = "http://ts-travel-service:12346/api/v1/travelservice/trips/" + tripId;
+            requestUtl = "http://ts-travels-service:12346/api/v1/travelsservice/trips/" + tripId;
         } else {
-            requestUtl = "http://ts-travel2-service:16346/api/v1/travel2service/trips/" + tripId;
+            requestUtl = "http://ts-travels2-service:16346/api/v1/travels2service/trips/" + tripId;
         }
         HttpEntity requestEntity = new HttpEntity(headers);
         ResponseEntity<Response> re = restTemplate.exchange(

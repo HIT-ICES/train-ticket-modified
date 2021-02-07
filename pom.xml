@@ -53,7 +53,9 @@
         <module>ts-common</module>
         <module>ts-auth-service</module>
 		<module>ts-user-service</module>
-    </modules>
+		<module>ts-travels-service</module>
+		<module>ts-travels2-service</module>
+	</modules>
 
 
 	<dependencies>

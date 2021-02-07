@@ -34,19 +34,6 @@ public class TravelServiceImpl implements TravelService {
     String success = "Success";
     String noContent = "No Content";
 
-    @Override
-    public Response create(TravelInfo info, HttpHeaders headers) {
-        TripId ti = new TripId(info.getTripId());
-        if (repository.findByTripId(ti) == null) {
-            Trip trip = new Trip(ti, info.getTrainTypeId(), info.getStartingStationId(),
-                    info.getStationsId(), info.getTerminalStationId(), info.getStartingTime(), info.getEndTime());
-            trip.setRouteId(info.getRouteId());
-            repository.save(trip);
-            return new Response<>(1, "Create trip:" + ti.toString() + ".", null);
-        } else {
-            return new Response<>(1, "Trip " + info.getTripId().toString() + " already exists", null);
-        }
-    }
 
     @Override
     public Response getRouteByTripId(String tripId, HttpHeaders headers) {
@@ -106,31 +93,6 @@ public class TravelServiceImpl implements TravelService {
             return new Response<>(1, "Search Trip Success by Trip Id " + tripId, trip);
         } else {
             return new Response<>(0, "No Content according to tripId" + tripId, null);
-        }
-    }
-
-    @Override
-    public Response update(TravelInfo info, HttpHeaders headers) {
-        TripId ti = new TripId(info.getTripId());
-        if (repository.findByTripId(ti) != null) {
-            Trip trip = new Trip(ti, info.getTrainTypeId(), info.getStartingStationId(),
-                    info.getStationsId(), info.getTerminalStationId(), info.getStartingTime(), info.getEndTime());
-            trip.setRouteId(info.getRouteId());
-            repository.save(trip);
-            return new Response<>(1, "Update trip:" + ti.toString(), trip);
-        } else {
-            return new Response<>(1, "Trip" + info.getTripId().toString() + "doesn 't exists", null);
-        }
-    }
-
-    @Override
-    public Response delete(String tripId, HttpHeaders headers) {
-        TripId ti = new TripId(tripId);
-        if (repository.findByTripId(ti) != null) {
-            repository.deleteByTripId(ti);
-            return new Response<>(1, "Delete trip:" + tripId + ".", tripId);
-        } else {
-            return new Response<>(0, "Trip " + tripId + " doesn't exist.", null);
         }
     }
 

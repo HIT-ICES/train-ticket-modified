@@ -11,13 +11,9 @@ import java.util.ArrayList;
  * @date  2017/6/7.
  */
 public interface Travel2Service {
-    Response create(TravelInfo info, HttpHeaders headers);
 
     Response retrieve(String tripId, HttpHeaders headers);
 
-    Response update(TravelInfo info, HttpHeaders headers);
-
-    Response delete(String tripId, HttpHeaders headers);
 
     Response query(TripInfo info, HttpHeaders headers);
 

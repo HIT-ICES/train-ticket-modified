@@ -54,13 +54,6 @@ public class Travel2Controller {
         return ok(service.getTripByRoute(routeIds, headers));
     }
 
-    @CrossOrigin(origins = "*")
-    @PostMapping(value = "/trips")
-    public HttpEntity<?> createTrip(@RequestBody TravelInfo routeIds, @RequestHeader HttpHeaders headers) {
-        // null
-        return new ResponseEntity<>(service.create(routeIds, headers), HttpStatus.CREATED);
-    }
-
     /**
      *Return Trip only, no left ticket information
      *
@@ -73,20 +66,6 @@ public class Travel2Controller {
     public HttpEntity retrieve(@PathVariable String tripId, @RequestHeader HttpHeaders headers) {
         // Trip
         return ok(service.retrieve(tripId, headers));
-    }
-
-    @CrossOrigin(origins = "*")
-    @PutMapping(value = "/trips")
-    public HttpEntity updateTrip(@RequestBody TravelInfo info, @RequestHeader HttpHeaders headers) {
-        // Trip
-        return ok(service.update(info, headers));
-    }
-
-    @CrossOrigin(origins = "*")
-    @DeleteMapping(value = "/trips/{tripId}")
-    public HttpEntity deleteTrip(@PathVariable String tripId, @RequestHeader HttpHeaders headers) {
-        // string
-        return ok(service.delete(tripId, headers));
     }
 
     /**

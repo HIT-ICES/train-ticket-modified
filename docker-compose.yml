@@ -195,6 +195,9 @@ services:
 
   ts-travel-service:
     build: ts-travel-service
+
+  ts-travels-service:
+    build: ts-travels-service
     #image: codewisdom/ts-travel-service
 #    restart: always
 #    ports:
@@ -209,6 +212,9 @@ services:
 
   ts-travel2-service:
       build: ts-travel2-service
+
+  ts-travels2-service:
+    build: ts-travels2-service
       #image: codewisdom/ts-travel2-service
   #    restart: always
   #    ports:
