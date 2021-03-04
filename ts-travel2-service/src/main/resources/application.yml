@@ -7,7 +7,7 @@ spring:
     name: ts-travel2-service
   data:
     mongodb:
-      host: ts-travel2-mongo
+      host: ts-travel-mongo
 #      username: user
 #      password: ${MONGODB_PASSWORD}
       database: ts
