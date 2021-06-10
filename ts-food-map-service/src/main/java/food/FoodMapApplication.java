@@ -2,7 +2,7 @@ package food;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.wangteng.mclient.annotation.MClient;
+import com.ll.framework.ano.MClient;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.integration.annotation.IntegrationComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
