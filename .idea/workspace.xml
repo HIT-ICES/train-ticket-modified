@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-image.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build-image.sh" afterDir="false" />
-    </list>
+    <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +22,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -47,7 +43,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -316,7 +312,7 @@
       </method>
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -329,6 +325,7 @@
       <updated>1604411658885</updated>
       <workItem from="1604411660025" duration="1023000" />
       <workItem from="1610764736716" duration="2687000" />
+      <workItem from="1623313811803" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="更改 #MCS-95 smell实验">
       <created>1611988987958</created>
@@ -341,35 +338,12 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更改readme.md #MCS-95 smell实验" />
     <MESSAGE value="更改.sh #MCS-95 smell实验" />
     <MESSAGE value="更改 #MCS-95 smell实验" />
     <option name="LAST_COMMIT_MESSAGE" value="更改 #MCS-95 smell实验" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="560" y="132" key="CommitChangelistDialog2" timestamp="1611988986295">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="560" y="132" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1611988986295" />
-    <state x="443" y="107" width="1024" height="852" key="SettingsEditor" timestamp="1611988948102">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="443" y="107" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611988948102" />
-    <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604411989926" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1611988996147">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1611988996147" />
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1610764739410">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1610764739410" />
-    <state x="578" y="184" width="764" height="784" key="find.popup" timestamp="1604412219986">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="578" y="184" width="764" height="784" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604412219986" />
   </component>
 </project>

@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ts-basic-service" />
         <module name="ts-admin-user-service" />
+        <module name="ts-basic-service" />
         <module name="ts-cancel-service" />
         <module name="ts-travel2-service" />
         <module name="ts-price-service" />
@@ -84,7 +84,7 @@
       <module name="ts-travel-plan-service" target="1.8" />
       <module name="ts-travel-service" target="1.8" />
       <module name="ts-travel2-service" target="1.8" />
-      <module name="ts-user-service" target="7" />
+      <module name="ts-user-service" target="8" />
       <module name="ts-verification-code-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
