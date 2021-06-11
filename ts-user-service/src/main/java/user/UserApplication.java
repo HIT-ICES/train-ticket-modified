@@ -1,9 +1,9 @@
 package user;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.wangteng.mclient.annotation.MClient;
-
+import com.ll.framework.ano.MClient;
 /**
  * @author fdse
  */

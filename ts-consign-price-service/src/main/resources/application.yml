@@ -9,6 +9,8 @@ spring:
 
 
 # HTTP Server
+mvf4ms:
+  version: 1.0.0
 server:
   port: 16110
 

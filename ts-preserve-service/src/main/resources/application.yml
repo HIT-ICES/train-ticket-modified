@@ -8,6 +8,8 @@
 #      port: 27017
 
 # HTTP Server
+mvf4ms:
+  version: 1.0.0
 server:
   port: 14568  # HTTP (Tomcat) port
 

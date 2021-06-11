@@ -1,4 +1,6 @@
 # HTTP Server
+mvf4ms:
+  version: 1.0.0
 server:
   port: 17853  # HTTP (Tomcat) port
 

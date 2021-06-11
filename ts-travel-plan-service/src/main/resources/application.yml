@@ -1,4 +1,6 @@
 # HTTP Server
+mvf4ms:
+  version: 1.0.0
 server:
   port: 14322  # HTTP (Tomcat) port
 

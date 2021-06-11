@@ -3,6 +3,8 @@ spring:
     name: ts-route-plan-service
 
 # HTTP Server
+mvf4ms:
+  version: 1.0.0
 server:
   port: 14578 # HTTP (Tomcat) port
 

@@ -10,6 +10,8 @@ spring:
       port: 27017
 
 # HTTP Server
+mvf4ms:
+  version: 1.0.0
 server:
   port: 15679  # HTTP (Tomcat) port
 
