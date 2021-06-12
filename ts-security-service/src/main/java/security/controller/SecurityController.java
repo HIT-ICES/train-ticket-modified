@@ -56,6 +56,7 @@ public class SecurityController {
         return ok(securityService.deleteSecurityConfig(id, headers));
     }
 
+
     @CrossOrigin(origins = "*")
     @GetMapping(path = "/securityConfigs/{accountId}")
     public HttpEntity check(@PathVariable String accountId, @RequestHeader HttpHeaders headers) {
