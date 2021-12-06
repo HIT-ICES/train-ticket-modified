@@ -1,6 +1,7 @@
 server:
   port: 16112
-
+mvf4ms:
+  version: 1.0.0
 spring:
   application:
     name: ts-admin-order-service

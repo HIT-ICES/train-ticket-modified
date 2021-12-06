@@ -5,7 +5,7 @@ server:
 mvf4ms:
   version: 1.0.0
 spring:
-  application
+  application:
     name: ts-rebook-service
 swagger:
   controllerPackage: rebook.controller

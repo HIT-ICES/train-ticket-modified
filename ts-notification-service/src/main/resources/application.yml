@@ -14,7 +14,7 @@ server:
 mvf4ms:
   version: 1.0.0
 spring:
-  application
+  application:
     name: ts-notification-service
   mail:
     host: smtp.163.com
