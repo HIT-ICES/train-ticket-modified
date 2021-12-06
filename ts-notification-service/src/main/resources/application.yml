@@ -11,6 +11,8 @@ server:
 ##      database: piggymetrics
 #      port: 27017
 
+mvf4ms:
+  version: 1.0.0
 spring:
   application:
     name: ts-notification-service

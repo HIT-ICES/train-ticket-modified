@@ -1,6 +1,6 @@
 package travels2;
 
-import com.wangteng.mclient.annotation.MClient;
+import com.ll.framework.ano.MClient;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;

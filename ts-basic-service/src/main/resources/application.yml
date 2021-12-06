@@ -1,6 +1,8 @@
 server:
   port: 15680
 
+mvf4ms:
+  version: 1.0.0
 spring:
   application:
     name: ts-basic-service

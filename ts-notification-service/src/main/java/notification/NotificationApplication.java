@@ -2,7 +2,7 @@ package notification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import com.wangteng.mclient.annotation.MClient;
+import com.ll.framework.ano.MClient;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**

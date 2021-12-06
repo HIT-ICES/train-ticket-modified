@@ -36,9 +36,10 @@
       <module fileurl="file://$PROJECT_DIR$/ts-station-service/ts-station-service.iml" filepath="$PROJECT_DIR$/ts-station-service/ts-station-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ts-ticketinfo-service/ts-ticketinfo-service.iml" filepath="$PROJECT_DIR$/ts-ticketinfo-service/ts-ticketinfo-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ts-train-service/ts-train-service.iml" filepath="$PROJECT_DIR$/ts-train-service/ts-train-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ts-travel-plan-service/ts-travel-plan-service.iml" filepath="$PROJECT_DIR$/ts-travel-plan-service/ts-travel-plan-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ts-travel-service/ts-travel-service.iml" filepath="$PROJECT_DIR$/ts-travel-service/ts-travel-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ts-travel2-service/ts-travel2-service.iml" filepath="$PROJECT_DIR$/ts-travel2-service/ts-travel2-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ts-travels-service/ts-travels-service.iml" filepath="$PROJECT_DIR$/ts-travels-service/ts-travels-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ts-travels2-service/ts-travels2-service.iml" filepath="$PROJECT_DIR$/ts-travels2-service/ts-travels2-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ts-user-service/ts-user-service.iml" filepath="$PROJECT_DIR$/ts-user-service/ts-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ts-verification-code-service/ts-verification-code-service.iml" filepath="$PROJECT_DIR$/ts-verification-code-service/ts-verification-code-service.iml" />
     </modules>

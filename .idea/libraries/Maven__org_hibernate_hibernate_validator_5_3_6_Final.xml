@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.hibernate:hibernate-validator:5.3.6.Final">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
