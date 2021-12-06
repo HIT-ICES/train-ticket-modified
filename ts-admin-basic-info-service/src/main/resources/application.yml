@@ -4,7 +4,6 @@ server:
   port: 18767
 
 spring:
-
   application:
     name: ts-admin-basic-info-service
 
