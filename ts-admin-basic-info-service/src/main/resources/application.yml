@@ -1,8 +1,8 @@
 server:
   port: 18767
 
-spring:
 
+spring:
   application:
     name: ts-admin-basic-info-service
 

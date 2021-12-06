@@ -1,8 +1,10 @@
 server:
   port: 18673
 
+mvf4ms:
+  version: 1.0.0
 spring:
-  application:
+  application
     name: ts-inside-payment-service
   data:
     mongodb:

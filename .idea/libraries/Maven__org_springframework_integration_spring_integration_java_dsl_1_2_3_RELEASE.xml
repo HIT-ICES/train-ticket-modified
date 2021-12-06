@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.integration:spring-integration-java-dsl:1.2.3.RELEASE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/springframework/integration/spring-integration-java-dsl/1.2.3.RELEASE/spring-integration-java-dsl-1.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/springframework/integration/spring-integration-java-dsl/1.2.3.RELEASE/spring-integration-java-dsl-1.2.3.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/springframework/integration/spring-integration-java-dsl/1.2.3.RELEASE/spring-integration-java-dsl-1.2.3.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/springframework/integration/spring-integration-java-dsl/1.2.3.RELEASE/spring-integration-java-dsl-1.2.3.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/springframework/integration/spring-integration-java-dsl/1.2.3.RELEASE/spring-integration-java-dsl-1.2.3.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/springframework/integration/spring-integration-java-dsl/1.2.3.RELEASE/spring-integration-java-dsl-1.2.3.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

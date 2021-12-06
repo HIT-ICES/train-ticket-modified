@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework:spring-beans:4.3.25.RELEASE">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3/re/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/springframework/spring-beans/4.3.25.RELEASE/spring-beans-4.3.25.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

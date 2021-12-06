@@ -1,8 +1,10 @@
 server:
   port: 12386
 
+mvf4ms:
+  version: 1.0.0
 spring:
-  application:
+  application
     name: ts-execute-service
 swagger:
   controllerPackage: execute.controller

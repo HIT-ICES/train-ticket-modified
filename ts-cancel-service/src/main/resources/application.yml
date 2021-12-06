@@ -1,8 +1,10 @@
 server:
   port: 18885  # HTTP (Tomcat) port
 
+mvf4ms:
+  version: 1.0.0
 spring:
-  application:
+  application
     name: ts-cancel-service
 
 swagger:

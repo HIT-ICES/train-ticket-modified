@@ -2,8 +2,10 @@
 server:
   port: 14322  # HTTP (Tomcat) port
 
+mvf4ms:
+  version: 1.0.0
 spring:
-  application:
+  application
     name: ts-travel-plan-service
 
 

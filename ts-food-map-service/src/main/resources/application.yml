@@ -1,8 +1,10 @@
 server:
   port: 18855
 
+mvf4ms:
+  version: 1.0.0
 spring:
-  application:
+  application
     name: ts-food-map-service
   data:
     mongodb:
