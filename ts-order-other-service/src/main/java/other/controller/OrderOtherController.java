@@ -39,10 +39,9 @@ public class OrderOtherController {
     }
 
     @CrossOrigin(origins = "*")
-    @PostMapping(path = "/orderOther ")
+    @PostMapping(path = "/orderOther")
     public HttpEntity createNewOrder(@RequestBody Order createOrder, @RequestHeader HttpHeaders headers) {
         OrderOtherController.LOGGER.info("[Order Other Service][Create Order] Create Order form {}  ---> {} at {}", createOrder.getFrom(), createOrder.getTo(), createOrder.getTravelDate());
-
         OrderOtherController.LOGGER.info("[Order Other Service][Verify Login] Success");
         return ok(orderService.create(createOrder, headers));
     }
