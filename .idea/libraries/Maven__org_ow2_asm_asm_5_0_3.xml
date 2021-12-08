@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.ow2.asm:asm:5.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/ow2/asm/asm/5.0.3/asm-5.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

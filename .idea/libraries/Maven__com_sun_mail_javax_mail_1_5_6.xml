@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.sun.mail:javax.mail:1.5.6">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/wrapper/dists/apache-maven-3.8.2-bin/1um3pu5poco57pibs3g92d6vrf/apache-maven-3.8.2/re/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
