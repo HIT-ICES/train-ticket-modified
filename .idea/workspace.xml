@@ -23,11 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5894a591-0fd8-486e-9179-6ef72b0b81b1" name="Default Changelist" comment="chen">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_8_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_example_MCommon_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_example_MProgrammingFramework_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-admin-basic-info-service/ts-admin-basic-info-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-basic-info-service/ts-admin-basic-info-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-admin-order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-order-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-admin-order-service/ts-admin-order-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-order-service/ts-admin-order-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-admin-route-service/ts-admin-route-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-route-service/ts-admin-route-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-admin-travel-service/ts-admin-travel-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-admin-travel-service/ts-admin-travel-service.iml" afterDir="false" />
@@ -57,8 +65,10 @@
       <change beforePath="$PROJECT_DIR$/ts-train-service/ts-train-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-train-service/ts-train-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-travel-plan-service/ts-travel-plan-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel-plan-service/ts-travel-plan-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-travel2-service/ts-travel2-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travel2-service/ts-travel2-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travels-service/ts-travels-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts-travels2-service/ts-travels2-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travels-service/src/main/java/travels/entity/TripId.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travels-service/src/main/java/travels/entity/TripId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travels-service/src/main/java/travels/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travels-service/src/main/java/travels/entity/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travels-service/ts-travels-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travels-service/ts-travels-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts-travels2-service/ts-travels2-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-travels2-service/ts-travels2-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-user-service/ts-user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-user-service/ts-user-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ts-verification-code-service/ts-verification-code-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ts-verification-code-service/ts-verification-code-service.iml" afterDir="false" />
     </list>
@@ -78,7 +88,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="a40b7dc3-9513-46e8-977c-1357e5572aba" />
+  <component name="JupyterTrust" id="1f74f17c-61f9-4237-9615-a11da5340a64" />
   <component name="KubernetesApiPersistence">
     <option name="context" value="kubernetes-admin@kubernetes" />
     <option name="namespace" value="default" />
@@ -104,6 +114,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -115,8 +126,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -127,6 +138,17 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.PriceApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminBasicInfoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ts-admin-basic-info-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="adminbasic.AdminBasicInfoApplication" />
@@ -567,5 +589,45 @@
     <MESSAGE value="修改 消除依赖环过程中的错误 #MCS-95 smell实验" />
     <MESSAGE value="chen" />
     <option name="LAST_COMMIT_MESSAGE" value="chen" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="835" y="291" width="424" height="491" key="FileChooserDialogImpl" timestamp="1640421593951">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="835" y="291" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1640421593951" />
+    <state x="305" y="107" width="1494" height="852" key="SettingsEditor" timestamp="1640421627448">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="305" y="107" width="1494" height="852" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1640421627448" />
+    <state x="665" y="191" width="651" height="731" key="git4idea.branch.GitSmartOperationDialog" timestamp="1640421450739">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="665" y="191" width="651" height="731" key="git4idea.branch.GitSmartOperationDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1640421450739" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ts-travel-service/src/main/java/travel/controller/TravelController.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ts-travel-service/src/main/java/travel/service/TravelServiceImpl.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ts-admin-travel-service/src/main/java/admintravel/service/AdminTravelServiceImpl.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

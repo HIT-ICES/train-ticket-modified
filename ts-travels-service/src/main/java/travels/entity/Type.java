@@ -8,17 +8,13 @@ import java.io.Serializable;
 public enum Type implements Serializable{
 
     /**
-     * Z
+     * G
      */
-    Z("Z",3),
+    G("G", 1),
     /**
-     * T
+     * D
      */
-    T("T", 4),
-    /**
-     * K
-     */
-    K("K", 5);
+    D("D", 2);
 
     private String name;
     private int index;
